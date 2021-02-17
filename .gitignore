@@ -1,0 +1,8 @@
+/node_modules
+.DS_Store
+.vscode
+.mdepsrc
+*.sublime-project
+*.sublime-workspace
+.idea
+package-lock.json
