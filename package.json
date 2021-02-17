@@ -27,9 +27,6 @@
     "watch": "mocha --watch --growl test/*.js",
     "lint": "eslint bin/cli.js lib test/*.js",
     "debug": "node bin/cli.js --debug bin lib",
-    "generate": "npm run generate:small && npm run generate:mdeps",
-    "generate:small": "bin/cli.js --image /tmp/simple.svg test/cjs/circular/a.js",
-    "generate:mdeps": "bin/cli.js --image /tmp/mdeps.svg bin lib",
     "test:output": "./test/output.sh"
   },
   "dependencies": {
